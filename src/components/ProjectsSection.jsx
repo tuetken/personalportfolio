@@ -1,42 +1,17 @@
-import {
-  ArrowRight,
-  ExternalLink,
-  Github,
-} from "lucide-react";
+import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "Lorem Ipsum Filler Text.",
+    title: "Job Application Tracker",
+    description: "Web Application Designed to Assist with Job Seeking Process.",
     image: [
       /*link thumbnail here (from public folder)*/
+      "/public/preview1.png",
     ],
-    tags: ["React", "Tailwind", "MongoDB"],
-    demoUrl: "#",
-    gitHubUrl: "#",
-  },
-  {
-    id: 2,
-    title: "SaaS Landing Page",
-    description: "Lorem Ipsum Filler Text.",
-    image: [
-      /*link thumbnail here (from public folder)*/
-    ],
-    tags: ["React", "Tailwind", "MongoDB"],
-    demoUrl: "#",
-    gitHubUrl: "#",
-  },
-  {
-    id: 3,
-    title: "SaaS Landing Page",
-    description: "Lorem Ipsum Filler Text.",
-    image: [
-      /*link thumbnail here (from public folder)*/
-    ],
-    tags: ["React", "Tailwind", "MongoDB"],
-    demoUrl: "#",
-    gitHubUrl: "#",
+    tags: ["React", "Tailwind", "Node.js", "MongoDB", "Firebase"],
+    demoUrl: "https://vercel.com/tyler-tuetkens-projects/personalportfolio/phyDg8L7NzYN631TiZZctxePDVx3",
+    gitHubUrl: "https://github.com/tuetken/personalportfolio",
   },
 ];
 
@@ -46,22 +21,17 @@ export const ProjectsSection = () => {
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
-          Featured{" "}
-          <span className="text-primary"> Projects</span>
+          Featured <span className="text-primary"> Projects</span>
         </h2>
 
         <p className="text-center text-muted-foreground-color mb-12 mx-auto max-w-2xl">
-          Here are some of my recent projects. Each project
-          was carefully crafted with attention to detail,
-          performance, and user experience.
+          Here are some of my recent projects. Each project was carefully crafted with attention to detail, performance, and user
+          experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1">
           {projects.map((project, key) => (
-            <div
-              key={key}
-              className="group bg-card rounded-large overflow-hidden shadow-xs card-hover"
-            >
+            <div key={key} className="group bg-card rounded-large overflow-hidden shadow-xs card-hover max-w-2xl w-full mx-auto">
               <div className="h-48 overflow-hidden">
                 <img
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -73,20 +43,12 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
-                      {tag}
-                    </span>
+                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">{tag}</span>
                   ))}
                 </div>
 
-                <h3 className="text-xl font-semibold mb-1">
-                  {" "}
-                  {project.title}
-                </h3>
-                <p className="text-muted-foreground text-sm mb-4">
-                  {" "}
-                  {project.description}
-                </p>
+                <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
+                <p className="text-muted-foreground text-sm mb-4"> {project.description}</p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
                     <a
@@ -111,11 +73,7 @@ export const ProjectsSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a
-            target="_blank"
-            href="https://github.com/tuetken"
-            className="cosmic-button w-fit flex items-center mx-auto gap-2"
-          >
+          <a target="_blank" href="https://github.com/tuetken" className="cosmic-button w-fit flex items-center mx-auto gap-2">
             Check My GitHub <ArrowRight size={16} />
           </a>
         </div>
