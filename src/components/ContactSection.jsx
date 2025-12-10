@@ -13,9 +13,9 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate?
-          Feel free to reach out. I'm always open to
-          discussing new opportunities.
+          I’m currently exploring new software engineering
+          opportunities. Feel free to reach out if you’d
+          like to connect.
         </p>
 
         <div className="gap-12 flex justify-center ">
