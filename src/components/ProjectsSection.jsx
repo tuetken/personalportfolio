@@ -39,11 +39,11 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground-color mb-12 mx-auto max-w-2xl">
-          “Here is a featured project that demonstrates my
+          Here is a featured project that demonstrates my
           experience building real-world, full-stack
           applications with modern tools. It was designed
           with a focus on functionality, performance, and
-          clean user experience.”
+          clean user experience.
         </p>
 
         <div className="grid grid-cols-1">

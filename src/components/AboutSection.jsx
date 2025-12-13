@@ -10,20 +10,28 @@ export const AboutSection = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Full-Stack JavaScript Developer</h3>
+            <h3 className="text-2xl font-semibold">
+              Full-Stack JavaScript Developer
+            </h3>
 
             <p className="text-muted-foreground">
-              Building scalable web applications with modern JavaScript and cloud-native technologies.
+              Building scalable web applications with modern
+              JavaScript and cloud-native technologies.
             </p>
 
             <p className="text-muted-foreground">
-              With hands-on experience building and designing robust backend systems, and deploying full-stack applications, I focus on
-              creating reliable, maintainable solutions that scale.
+              With hands-on experience building and
+              designing robust backend systems, and
+              deploying full-stack applications, I focus on
+              creating reliable, maintainable solutions that
+              scale.
             </p>
 
             <p className="text-muted-foreground">
-              I enjoy working across the stack — from crafting responsive UIs in React to architecting Node.js services and deploying them
-              to AWS.
+              I enjoy working across the stack — from
+              crafting responsive UIs in React to
+              architecting Node.js services and deploying
+              them.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -47,8 +55,13 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Cloud & DevOps (AWS + Deployment)</h4>
-                  <p className="text-muted-foreground">Creating responsive websites and web applications with modern frameworks.</p>
+                  <h4 className="font-semibold text-lg">
+                    Cloud & DevOps (AWS + Deployment)
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Creating responsive websites and web
+                    applications with modern frameworks.
+                  </p>
                 </div>
               </div>
             </div>
@@ -58,8 +71,13 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Backend Engineering & API Design</h4>
-                  <p className="text-muted-foreground">Designing intuitive user interfaces and seamless user experiences.</p>
+                  <h4 className="font-semibold text-lg">
+                    Backend Engineering & API Design
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Designing intuitive user interfaces and
+                    seamless user experiences.
+                  </p>
                 </div>
               </div>
             </div>
@@ -69,8 +87,13 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Full-Stack JavaScript Development</h4>
-                  <p className="text-muted-foreground">Crafting end-to-end applications using React, Node.js, Express, and MongoDB.</p>
+                  <h4 className="font-semibold text-lg">
+                    Full-Stack JavaScript Development
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Crafting end-to-end applications using
+                    React, Node.js, Express, and MongoDB.
+                  </p>
                 </div>
               </div>
             </div>
