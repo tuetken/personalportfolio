@@ -1,7 +1,6 @@
 # 🌐 Tyler Tuetken – Developer Portfolio
 
-Welcome to the source code for my personal developer portfolio — a modern, responsive website built to showcase my full-stack JavaScript projects, technical skills, and professional background.  
-This portfolio is designed and developed from the ground up using **Vite + React**, with a focus on performance, clean component architecture, and an engaging user experience.
+Welcome to the source code for my personal developer portfolio — a modern, responsive website built to showcase my full-stack JavaScript projects, technical skills, and professional background. This portfolio is designed and developed from the ground up using **Vite + React**, with a focus on performance, clean component architecture, and an engaging user experience.
 
 ---
 

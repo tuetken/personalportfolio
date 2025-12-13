@@ -12,7 +12,7 @@ const projects = [
       "Web Application Designed to Assist with Job Seeking Process.",
     image: [
       /*link thumbnail here (from public folder)*/
-      "/public/preview1.png",
+      "/preview1.png",
     ],
     tags: [
       "React",
