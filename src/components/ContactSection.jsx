@@ -46,7 +46,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <a className="text-muted-foreground hover:text-primary transition-colors">Trinity, FL, USA</a>
+                  <a className="text-muted-foreground">Trinity, FL, USA</a>
                 </div>
               </div>
             </div>
