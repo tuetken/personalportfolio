@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "Job Application Tracker",
-    description: "Web Application Designed to Assist with Job Seeking Process.",
+    description: "Web App Designed to Assist with Job Seeking Process",
     image: [
       /*link thumbnail here (from public folder)*/
       "/preview1.png",
@@ -12,6 +12,18 @@ const projects = [
     tags: ["React", "Tailwind", "Node.js", "MongoDB", "Firebase"],
     demoUrl: "https://jobapplicationtracker-phi.vercel.app",
     gitHubUrl: "https://github.com/tuetken/personalportfolio",
+  },
+  {
+    id: 2,
+    title: "TraceDeck",
+    description: "Lightweight API Observability Platform",
+    image: [
+      /*link thumbnail here (from public folder)*/
+      "/preview2.png",
+    ],
+    tags: ["Node.js", "Redis", "PostgreSQL", "Prisma", "BullMQ"],
+    demoUrl: "https://github.com/tuetken/TraceDeck",
+    gitHubUrl: "https://github.com/tuetken/TraceDeck",
   },
 ];
 
@@ -25,28 +37,28 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground-color mb-12 mx-auto max-w-2xl">
-          Here is a featured project that demonstrates my experience building real-world, full-stack applications with modern tools. It was
-          designed with a focus on functionality, performance, and clean user experience.
+          Here are my featured projects that demonstrate my experience building real-world, full-stack applications with modern tools. They
+          were designed with a focus on functionality, performance, and clean user experience.
         </p>
 
-        <div className="grid grid-cols-1">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, key) => (
             <a
               key={key}
-              className="group bg-card rounded-large overflow-hidden shadow-xs card-hover max-w-lg w-full mx-auto"
+              className="group bg-card rounded-large overflow-hidden shadow-xs card-hover w-full"
               href={project.demoUrl}
               target="_blank"
             >
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="aspect-[4112/2658] overflow-hidden">
                 <img
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
                   src={project.image}
                   alt={project.title}
                 />
               </div>
 
               <div className="p-6">
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-4 justify-center">
                   {project.tags.map((tag) => (
                     <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">{tag}</span>
                   ))}

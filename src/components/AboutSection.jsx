@@ -10,19 +10,19 @@ export const AboutSection = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Full-Stack JavaScript Developer</h3>
+            <h3 className="text-2xl font-semibold">Backend-Focused Software Engineer</h3>
 
             <p className="text-muted-foreground">
-              Building scalable web applications with modern JavaScript and cloud-native technologies.
+              Building backend systems and cloud-based applications with JavaScript, Node.js, and modern web technologies.
             </p>
 
             <p className="text-muted-foreground">
-              With hands-on experience building and designing robust backend systems, and deploying full-stack applications, I focus on
-              creating reliable, maintainable solutions that scale.
+              I focus on designing reliable, performant services — from asynchronous ingestion pipelines and queue-based architectures to
+              RESTful APIs and containerized deployments.
             </p>
 
             <p className="text-muted-foreground">
-              I enjoy working across the stack — from crafting responsive UIs in React to architecting Node.js services and deploying them.
+              AWS Certified and ITIL-certified, with a B.S. in Software Engineering from Western Governors University.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -46,8 +46,8 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Cloud & DevOps (AWS + Deployment)</h4>
-                  <p className="text-muted-foreground">Creating responsive websites and web applications with modern frameworks.</p>
+                  <h4 className="font-semibold text-lg">Cloud & DevOps</h4>
+                  <p className="text-muted-foreground">AWS Certified Cloud Practitioner. Deploying containerized apps via Docker, Render, and Vercel with CI/CD pipelines.</p>
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@ export const AboutSection = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Backend Engineering & API Design</h4>
-                  <p className="text-muted-foreground">Designing intuitive user interfaces and seamless user experiences.</p>
+                  <p className="text-muted-foreground">Building RESTful APIs and async pipelines with Node.js, Express, Redis queues, and PostgreSQL.</p>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ export const AboutSection = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Full-Stack JavaScript Development</h4>
-                  <p className="text-muted-foreground">Crafting end-to-end applications using React, Node.js, Express, and MongoDB.</p>
+                  <p className="text-muted-foreground">End-to-end apps with React, Node.js, Express, and MongoDB — from responsive UIs to production deployments.</p>
                 </div>
               </div>
             </div>
